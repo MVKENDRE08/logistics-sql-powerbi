@@ -1,11 +1,11 @@
-📦 Logistics Operations Analysis (SQL & Power BI)
+# 📦 Logistics Operations Analysis (SQL & Power BI)
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project analyzes real-world logistics and transportation data (2022–2024) to evaluate operational performance across drivers, trips, routes, fuel costs, and revenue.
 The objective was to simulate a real data analyst workflow — starting from raw CSV files, validating data quality in SQL, performing structured analysis, and presenting insights through a Power BI dashboard.
 
-🗂️ Dataset Description
+## 🗂️ Dataset Description
 
 The dataset represents end-to-end logistics operations and includes:
 
@@ -23,7 +23,7 @@ The dataset represents end-to-end logistics operations and includes:
 
 All CSV files were imported into SQL Server using the Import Data Wizard.
 
-🛠️ Tools Used
+## 🛠️ Tools Used
 
 - SQL Server / SSMS
 
@@ -31,9 +31,9 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - Power BI (KPI cards, trends, route and terminal analysis)
 
-🔍 Project Workflow
+# 🔍 Project Workflow
 
-1️⃣ Data Loading & Validation
+## 1️⃣ Data Loading & Validation
 
 - Imported multiple CSV files into SQL Server
 
@@ -41,7 +41,7 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - Identified orphan records using NOT EXISTS checks
 
-2️⃣ Data Cleaning
+## 2️⃣ Data Cleaning
 
 - Handled missing revenue values
 
@@ -49,7 +49,7 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - Identified potential data quality issues without deleting records
 
-3️⃣ Data Analysis (SQL)
+## 3️⃣ Data Analysis (SQL)
 
 - Analyzed driver workload and revenue contribution
 
@@ -61,7 +61,7 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - Ranked drivers and identified top performers using window functions
 
-4️⃣ Visualization (Power BI)
+## 4️⃣ Visualization (Power BI)
 
 - Built KPI cards for revenue, trips, and drivers
 
@@ -71,7 +71,7 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - Visualized driver distribution by terminal
 
-📊 Key Business Questions Answered
+## 📊 Key Business Questions Answered
 
 - Which drivers contribute most to trip volume and revenue?
 
@@ -83,7 +83,7 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - How does revenue trend over time?
 
-📈 Key Insights
+## 📈 Key Insights
 
 - Revenue remained stable over time, indicating consistent operational performance
 
@@ -93,7 +93,7 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 
 - Average fuel cost per trip provided a realistic operational efficiency benchmark
 
-✅ Skills Demonstrated
+## ✅ Skills Demonstrated
 
 - SQL-based data validation and quality checks
 
@@ -106,3 +106,4 @@ All CSV files were imported into SQL Server using the Import Data Wizard.
 - Translating SQL analysis into clear Power BI visuals
 
 - Business-focused interpretation of operational data
+
